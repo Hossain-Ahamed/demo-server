@@ -2,42 +2,13 @@
   
   {
     "id": 1,     
-    "name": "Vim Liquid1",
-    "slug_name" : "vim-liquid1",
-    "size": "500 gm",
-    "buyingprice": "268.55",
+    "product_id" : "123",
     "quantity" : "12"
   },
   {
-    "id": 2,     
-    "name": "Vim Liquid2",
-    "slug_name" : "vim-liquid2",
-    "size": "500 gm",
-    "buyingprice": "268.55",
-    "quantity" : "12"
-  },
-  {
-    "id": 3,     
-    "name": "Vim Liquid3",
-    "slug_name" : "vim-liquid3",
-    "size": "500 gm",
-    "buyingprice": "268.55",
-    "quantity" : "12"
-  },
-  {
-    "id": 4,     
-    "name": "Vim Liquid gretghrt3",
-    "slug_name" : "vim-liquid3",
-    "size": "500 gm",
-    "buyingprice": "268.55",
-    "quantity" : "127"
-  },
-  {
-    "id": 5,     
-    "name": "Vim Liquid4",
-    "slug_name" : "vim-liquid4",
-    "size": "500 gm",
-    "buyingprice": "268.55",
-    "quantity" : "12"
+    "id": 1,     
+    "product_id" : "901",
+    "quantity" : "1"
   }
+ 
 ]

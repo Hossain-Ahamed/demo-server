@@ -1,0 +1,84 @@
+
+{
+    "customerService": [
+        {
+            "id": 1,
+            "name": "About Us"
+        },
+        {
+            "id": 2,
+            "name": "Terms & Conditions"
+        },
+        {
+            "id": 3,
+            "name": "FAQ"
+        },
+        {
+            "id": 4,
+            "name": "Privacy Policy"
+        },
+        {
+            "id": 5,
+            "name": "E-waste Policy"
+        },
+        {
+            "id": 6,
+            "name": "Cancellation & Return Policy"
+        }
+    ],
+    "popularCategories": [
+        {
+            "id": 1,
+            "name": "Staples"
+        },
+        {
+            "id": 2,
+            "name": "Beverage"
+        },
+        {
+            "id": 3,
+            "name": "Personal Care"
+        },
+        {
+            "id": 4,
+            "name": "Home Care"
+        },
+        {
+            "id": 5,
+            "name": "Baby Care"
+        },
+        {
+            "id": 6,
+            "name": "Vegitable & Fruits"
+        },
+        {
+            "id": 7,
+            "name": "Snacks & Foods"
+        },
+        {
+            "id": 8,
+            "name": "Dairy & Bekary"
+        }
+    ],
+
+    "companyInfo": {
+        
+            "id": 1,
+            "title": "About Us",
+            "info": "Discover a grocery shopping revolution! Our e-commerce platform offers fresh, high-quality products, speedy delivery, and a seamless shopping experience. Shop now and redefine your grocery shopping journey!"
+    },
+    "phone": {
+        "number1": "+8801906913254"
+    },
+
+    "social": {
+        "whatsApp": "+8801868726172",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/"
+    }
+        
+}
+
+
+
+

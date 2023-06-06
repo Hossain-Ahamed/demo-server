@@ -1,0 +1,138 @@
+[
+    {
+      "_id": "64783eab84cf8841e625a9b7",
+      "isActive": true,
+      "category_unique_name": "cleaning-supplies",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "Ceaning Supplies",
+      "sub_category": [
+        {
+          "sub_cat_id": "ffffff",
+          "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+          "sub_category_unique_name": "cleaning",
+          "sub_category_name": "Washing & cleaning",
+          "isActive": false
+        },
+        {
+          "sub_cat_id": "eeeee",
+          "sub_category_unique_name": "fresh",
+          "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+          "sub_category_name": "freshing agents",
+          "isActive": true
+        }
+     
+      ]
+    },
+    {
+      "_id": "64783eabd1d683c9d4b6e88b",
+      "isActive": true,
+      "category_unique_name": "nisi",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "gol alu",
+      "sub_category": [
+        {
+          "sub_cat_id": "ddddd",
+          "sub_category_unique_name": "cleaning",
+          "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+          "sub_category_name": "Washing & cleaning",
+          "isActive": false
+        },
+        {
+          "sub_cat_id": "ccccc",
+          "sub_category_unique_name": "fresh",
+          "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+          "sub_category_name": "freshing agents",
+          "isActive": true
+        }
+      ]
+    },
+    {
+      "_id": "64783eab6dcf7b5152f1131c",
+      "isActive": false,
+      "category_unique_name": "cillum",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "misti alu",
+      "sub_category": [
+        {
+          "sub_cat_id": "bbbbb",
+          "sub_category_unique_name": "cleaning",
+          "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+          "sub_category_name": "Washing & cleaning",
+          "isActive": false
+        },
+        {
+          "sub_cat_id": "aaaaa",
+          "sub_category_unique_name": "fresh",
+          "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+          "sub_category_name": "freshing agents",
+          "isActive": true
+        }
+      ]
+    },
+    {
+      "_id": "ksdajfjlsdjfaaajlksdajlfkjdsaflk",
+      "isActive": false,
+      "category_unique_name": "cillum",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "choto alu",
+      "path" : "cleaning",
+      "sub_category": [
+       
+      ]
+    },
+    {
+      "_id": "ksdajfjlsdjaafjlksdajlfkjdsaflk",
+      "isActive": false,
+      "category_unique_name": "cillum",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "choto alu",
+      "path" : "cleaning",
+      "sub_category": [
+       
+      ]
+    },
+    {
+      "_id": "ksdajfjlsdjfjlksdadffjlfkjdsaflk",
+      "isActive": false,
+      "category_unique_name": "cillum",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "choto alu",
+      "path" : "cleaning",
+      "sub_category": [
+       
+      ]
+    },
+    {
+      "_id": "ksdajfjlsdjfjlkfsdajldffsdfkjdsaflk",
+      "isActive": false,
+      "category_unique_name": "cillum",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "choto alu",
+      "path" : "cleaning",
+      "sub_category": [
+       
+      ]
+    },
+    {
+      "_id": "ksdajfjalsdjfjldfksdajlfkjdsaflk",
+      "isActive": false,
+      "category_unique_name": "cillum",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "choto alu",
+      "path" : "cleaning",
+      "sub_category": [
+       
+      ]
+    },
+    {
+      "_id": "ksdajfjlsdjfjlksdabjlfkjdsaflk",
+      "isActive": false,
+      "category_unique_name": "cillum",
+      "img": "https://i.ibb.co/TMthNp1/Trix-Dishwashing-Liquid-Double-Pack-250ml-min-copy.png",
+      "categoy_name": "choto alu",
+      "path" : "cleaning",
+      "sub_category": [
+       
+      ]
+    }
+  ]

@@ -1,0 +1,54 @@
+{
+    
+        "id": 1,
+        "orderNo": "#1562248996",
+        "orderDate": "May 25, 2023",
+        "deliveryDate": "May 30, 2023",
+        "paidThrough": "Cash on delivery",
+        "products" : [
+  
+            {
+              "id": 1,     
+              "name": "Vim Liquid1",
+              "u_name" : "vim-liquid1",
+              "size": "500 gm",
+              "buyingprice": "268.55",
+              "quantity" : "12"
+            },
+            {
+              "id": 2,     
+              "name": "Vim Liquid2",
+              "u_name" : "vim-liquid2",
+              "size": "500 gm",
+              "buyingprice": "268.55",
+              "quantity" : "12"
+            },
+            {
+              "id": 3,     
+              "name": "Vim Liquid3",
+              "u_name" : "vim-liquid3",
+              "size": "500 gm",
+              "buyingprice": "268.55",
+              "quantity" : "12"
+            },
+            {
+              "id": 4,     
+              "name": "Vim Liquid gretghrt3",
+              "u_name" : "vim-liquid3",
+              "size": "500 gm",
+              "buyingprice": "268.55",
+              "quantity" : "127"
+            },
+            {
+              "id": 5,     
+              "name": "Vim Liquid4",
+              "u_name" : "vim-liquid4",
+              "size": "500 gm",
+              "buyingprice": "268.55",
+              "quantity" : "12"
+            }
+        ]
+
+    
+    
+}

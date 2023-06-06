@@ -1,0 +1,26 @@
+{
+    "order_no": "#1562248996",
+    "order_place": "May 25, 2023",
+    "estimate_delivery": "June 25, 2023",
+    "trackingInfo":[
+        {
+            "id": 1,
+            "status": "Processing",
+            "description": "djffedefieikfieekofo",
+            "time": "12:30pm May 25, 2023"
+        },
+        {
+            "id": 2,
+            "status": "Shipping",
+            "description": "djffedefieikfieekofo",
+            "time": "12:30pm June 25, 2023"
+        },
+        {
+            "id": 3,
+            "status": "Delivered",
+            "description": "djffedefieikfieekofo",
+            "time": "12:30pm July 25, 2023"
+        }
+    ]
+
+}

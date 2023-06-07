@@ -84,25 +84,34 @@ app.get('/orderstatus/:orderId', (req, res) => {
 
 })
 
-
-app.get('/carts', (req, res) => {
-    res.send(cartsdata)
-
-})
-
 app.patch('/carts', (req, res) => {
     console.log(req.body);
+
+
+    cartsdata.push(req.body);
+
+    
+    let cart = cartWithImage(cartsdata);
+    res.send(cart)
+
+
+})
+
+
+app.post('/carts', (req, res) => {
+    console.log(req.body);
+
+
     res.send(cartsdata)
 
 })
-app.get('/cartsWithImage', (req, res) => {
 
-
+const cartWithImage = parameterData =>{
     let cart = [];
     let cartItem = null;
 
 
-    cartsdata.map(i => {
+    parameterData.map(i => {
 
 
         cartItem = allproducts.find(productItem => productItem.product_id === i.product_id);
@@ -117,14 +126,42 @@ app.get('/cartsWithImage', (req, res) => {
         }
         )
     })
+    return cart;
+}
+
+
+app.delete('/carts', (req, res) => {
     
-    
+    console.log(req.body.product_id);
+
+    for (let i = 0; i < cartsdata.length; i++) {
+        if (cartsdata[i].product_id === req.body.product_id) {
+          cartsdata.splice(i, 1);
+          break; // Assuming there is only one object with "product_id": "901"
+        }
+      }
+
+   
+
+    let cart = cartWithImage(cartsdata);
     res.send(cart)
+
+
+})
+
+
+
+
+app.get('/carts', (req, res) => {
+
+
+    let cart = cartWithImage(cartsdata);
+    res.send(cart);
 
 })
 app.get('/productDetail/:product_slug_name', (req, res) => {
 
-    res.send(productDetailInformation.find(item => item.slug_name === req.params.product_slug_name))
+    res.send(allproducts.find(item => item.slug_name === req.params.product_slug_name))
 
 })
 app.get('/allOrders', (req, res) => {

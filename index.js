@@ -35,6 +35,7 @@ app.get('/home', (req, res) => {
 
 
 })
+
 app.get('/sub-category/:subcategory_slug', (req, res) => {
     console.log('req for ', req.path);
     let allProductsData = [];
@@ -90,7 +91,7 @@ app.patch('/carts', (req, res) => {
 
     cartsdata.push(req.body);
 
-    
+
     let cart = cartWithImage(cartsdata);
     res.send(cart)
 
@@ -100,8 +101,6 @@ app.patch('/carts', (req, res) => {
 
 app.post('/carts', (req, res) => {
     console.log(req.body);
-
-
     res.send(cartsdata)
 
 })
@@ -150,20 +149,32 @@ app.delete('/carts', (req, res) => {
 })
 
 
-
-
 app.get('/carts', (req, res) => {
-
-
     let cart = cartWithImage(cartsdata);
     res.send(cart);
 
 })
+
+
+app.get('/confirmedCartItems', (req, res) => {
+    let cart = cartWithImage(cartsdata);
+    const shippingCharge = 150;
+    res.send({
+        "products" :cart,
+        "shippingCharge" :shippingCharge
+    });
+
+})
+
+
 app.get('/productDetail/:product_slug_name', (req, res) => {
 
     res.send(allproducts.find(item => item.slug_name === req.params.product_slug_name))
 
 })
+
+
+
 app.get('/allOrders', (req, res) => {
 
     res.send(Allorders)
@@ -180,32 +191,6 @@ app.get('/completedOrder/:orderId', (req, res) => {
 
 
 
-
-// //carousel img
-// app.get('/carousel', (req, res) => {
-//     res.send(carousel.filter(item => item.isActive === true));
-// })
-
-
-
-// // all courses
-// app.get('/courses', (req, res) => {
-//     res.send(courses.filter(item => item.isActive === true));
-// })
-
-
-
-// // individual course
-// app.get('/courses/:courseID', (req, res) => {
-//     let data = courses.find(item => item._id === req.params.courseID && item.isActive === true)
-//     data ? res.send(data) : res.send([]);
-// })
-
-
-// // all blog
-// app.get('/blog', (req, res) => {
-//     res.send(blog);
-// })
 
 
 

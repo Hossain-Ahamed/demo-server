@@ -1,0 +1,1170 @@
+[
+    {
+        "Date": "2023-06-11T00:00:00",
+        "Status": "Current",
+        "Product": {
+            "ProductVariantId": 39392,
+            "Name": "Tang Mango Instant Drink Powder 750 gm",
+            "NameWithoutSubText": "Tang Mango Instant Drink Powder",
+            "SubText": "750 gm",
+            "ShortDescription": "",
+            "NameBn": "ট্যাং ম্যাংগো ইন্সট্যান্ট ড্রিংক পাউডার ৭৫০ গ্রাম",
+            "Price": {
+                "Lo": 6750000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 6190000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 619,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "Product Origin: Bahrain   \r\nDescription:  Why cut a Mango when you can pour and sip it? Experience the novelty of summer with the tasty and refreshing Tang instant drink mix. Splash some Tang into your life for refreshment.    Tang makes water more fun to drink ensuring that your family stays hydrated – a glass of Tang gives your child vitamins required for the entire day. No need to add sugar, just add the powder to water and enjoy the delicious drink on the go.    - Instantly refreshes you   - Filled with the goodness of mango and enriched with vitamin C   - No allergens and artificial colors included  - Easy to Prepare  - Best had after sports or anytime you need recharging\"  Why cut a Mango when you can pour and sip it? Experience the novelty of summer with the tasty and refreshing Tang instant drink mix. Splash some Tang into your life for refreshment.",
+            "Slug": "tang-mango-instant-drink-powder-750-gm",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/tang-mango-instant-drink-powder-750-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135213&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 5,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                },
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 7,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-12T10:30:00",
+                        "UnixTimeMilliseconds": 1686544200000,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": {
+                        "UnixTimeMilliseconds": 1686501000000,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    }
+                }
+            ],
+            "BaseProductVariantId": 39392,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 12,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 90000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-10T22:00:00",
+            "UnixTimeMilliseconds": 1686412800000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-11T22:00:00",
+            "UnixTimeMilliseconds": 1686499200000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-10T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 39490,
+            "Name": "Cock Chicken Skin Off ± 25 gm 500 gm",
+            "NameWithoutSubText": "Cock Chicken Skin Off ± 25 gm",
+            "SubText": "500 gm",
+            "ShortDescription": "",
+            "NameBn": "কক মুরগী চামড়া ছাড়ানো ± ২৫ গ্রাম ৫০০ গ্রাম",
+            "Price": {
+                "Lo": 3450000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 2590000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 259,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "Weight: 500-550 gm  \r\n           \r\nA cock is a sexually mature chicken over one year of age, also known as a rooster. Bonus definitions: A cockerel is a young male chicken that is not yet one year old. A pullet is a young female chicken that is fully feathered, is less than one year of age, and has not yet laid an egg. ",
+            "Slug": "cock-chicken-skin-off-25-gm-500-gm",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/cock-chicken-skin-off-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136014&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 26,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                }
+            ],
+            "BaseProductVariantId": 39490,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 26,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-09T22:00:00",
+            "UnixTimeMilliseconds": 1686326400000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-10T22:00:00",
+            "UnixTimeMilliseconds": 1686412800000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-09T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 36237,
+            "Name": "Guava Premium (± 50 gm) 1 kg",
+            "NameWithoutSubText": "Guava Premium (± 50 gm)",
+            "SubText": "1 kg",
+            "ShortDescription": "Guava is a tropical fruit rich in high-profile nutrients. Thai guavas are generally the size of a softball with apple green skin that can range from bumpy to smooth. The flesh is white with pale yellow seeds and tends to be drier than the pink type of guavas. Thai guavas are only mildly sweet and have very little fragrance. The crunchy flesh and hard seeds are both edible. Guavas come in two broad groups divided by the color of their flesh: pink and white. Thai guavas are a group of guavas within the white category that include a number of varieties. Thai Guava Guava is very helpful for those who want to lose weight without compromising their intake of proteins, vitamins and fiber. Guava is very high in roughage and rich in vitamins, proteins and minerals Adding a medium-sized guava to your lunch and you will not feel hungry again until the evening. ",
+            "NameBn": "পেয়ারা (নেট ওজন ± ৫০ গ্রাম ) ১ কেজি",
+            "Price": {
+                "Lo": 900000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 590000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 59,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "Guava is a tropical fruit rich in high-profile nutrients. Thai guavas are generally the size of a softball with apple green skin that can range from bumpy to smooth. The flesh is white with pale yellow seeds and tends to be drier than the pink type of guavas. Thai guavas are only mildly sweet and have very little fragrance. The crunchy flesh and hard seeds are both edible. Guavas come in two broad groups divided by the color of their flesh: pink and white. Thai guavas are a group of guavas within the white category that include a number of varieties. Thai Guava Guava is very helpful for those who want to lose weight without compromising their intake of proteins, vitamins and fiber. Guava is very high in roughage and rich in vitamins, proteins and minerals Adding a medium-sized guava to your lunch and you will not feel hungry again until the evening.",
+            "Slug": "guava-premium-50-gm-1-kg",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/guava-premium-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D67818&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [
+                472
+            ],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 5,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                }
+            ],
+            "BaseProductVariantId": 36237,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 5,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-08T22:00:00",
+            "UnixTimeMilliseconds": 1686240000000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-09T22:00:00",
+            "UnixTimeMilliseconds": 1686326400000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-08T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 39145,
+            "Name": "Mixed Dal 500 gm",
+            "NameWithoutSubText": "Mixed Dal",
+            "SubText": "500 gm",
+            "ShortDescription": "",
+            "NameBn": "মিশ্র ডাল ৫০০ গ্রাম",
+            "Price": {
+                "Lo": 750000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 490000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 49,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "",
+            "Slug": "mixed-dal-500-gm",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/mixed-dal-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132608&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 22,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                }
+            ],
+            "BaseProductVariantId": 39145,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 22,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 90000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-07T22:00:00",
+            "UnixTimeMilliseconds": 1686153600000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-08T22:00:00",
+            "UnixTimeMilliseconds": 1686240000000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-07T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 39381,
+            "Name": "MDH Kashmiri Chilli Powder 100 gm",
+            "NameWithoutSubText": "MDH Kashmiri Chilli Powder",
+            "SubText": "100 gm",
+            "ShortDescription": "",
+            "NameBn": "এমডিএইচ কাসমিরি চিলি পাউডার ১০০ গ্রাম",
+            "Price": {
+                "Lo": 1900000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 1190000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 119,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "",
+            "Slug": "mdh-kashmiri-chilli-powder-100-gm-2",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/mdh-kashmiri-chilli-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135102&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [],
+            "BaseProductVariantId": 39381,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 0,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 90000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-06T22:00:00",
+            "UnixTimeMilliseconds": 1686067200000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-07T22:00:00",
+            "UnixTimeMilliseconds": 1686153600000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-06T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 36613,
+            "Name": "Nucella Fortified Chocolate Spread Cocoa & Almond 230 gm",
+            "NameWithoutSubText": "Nucella Fortified Chocolate Spread Cocoa & Almond",
+            "SubText": "230 gm",
+            "ShortDescription": "",
+            "NameBn": "নিউসেলা ফর্টিফাইড চকোলেট স্প্রেড কোকোয়া এন্ড আলমন্ড ২৩০ গ্রাম",
+            "Price": {
+                "Lo": 3200000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 2050000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 205,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "",
+            "Slug": "nucella-fortified-chocolate-spread-cocoa-almond-230-gm",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/nucella-fortified-chocolate-spread-cocoa-almond-230-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120594&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [],
+            "BaseProductVariantId": 36613,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 0,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-05T22:00:00",
+            "UnixTimeMilliseconds": 1685980800000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-06T22:00:00",
+            "UnixTimeMilliseconds": 1686067200000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-05T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 36558,
+            "Name": "Saffola Active Plus Edible Oil 5 ltr",
+            "NameWithoutSubText": "Saffola Active Plus Edible Oil",
+            "SubText": "5 ltr",
+            "ShortDescription": "",
+            "NameBn": "সাফলা একটিভ ব্লেনডেড এডিবল সবজি তেল ৫ লিটার",
+            "Price": {
+                "Lo": 18000000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 15500000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 1550,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "Saffola Active with Goodness of 5 contains Oryzanol, Omega 3, Vitamin A & Vitamin E, and ensures upto 25%* less oil absorption, for active life management of you and your family.\r\n",
+            "Slug": "saffola-active-plus-edible-oil-5-ltr-2",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/saffola-active-plus-edible-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133098&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 8,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                }
+            ],
+            "BaseProductVariantId": 36558,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 8,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-04T22:00:00",
+            "UnixTimeMilliseconds": 1685894400000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-05T22:00:00",
+            "UnixTimeMilliseconds": 1685980800000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-04T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 37972,
+            "Name": "Black Hit Anti Mosquito Aerosol 400 ml",
+            "NameWithoutSubText": "Black Hit Anti Mosquito Aerosol",
+            "SubText": "400 ml",
+            "ShortDescription": "",
+            "NameBn": "ব্ল্যাক হিট অ্যান্টি মস্কিটো অ্যারোসল ৪০০ মিলি",
+            "Price": {
+                "Lo": 3750000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 3390000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 339,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "",
+            "Slug": "black-hit-anti-mosquito-aerosol-400-ml-2",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/black-hit-anti-mosquito-aerosol-400-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D125228&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 43,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                }
+            ],
+            "BaseProductVariantId": 37972,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 43,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 90000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-03T22:00:00",
+            "UnixTimeMilliseconds": 1685808000000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-04T22:00:00",
+            "UnixTimeMilliseconds": 1685894400000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-03T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 39172,
+            "Name": "Cherry Blossom Dark Tan Liquid Shoe Polish +  Wax Extracts 75 ml",
+            "NameWithoutSubText": "Cherry Blossom Dark Tan Liquid Shoe Polish +  Wax Extracts",
+            "SubText": "75 ml",
+            "ShortDescription": "",
+            "NameBn": "চেরি ব্লসম ডার্ক ট্যান লিকুইড শু পলিশ মোমের নির্যাস ৭৫ মিলি",
+            "Price": {
+                "Lo": 1350000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 790000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 79,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "",
+            "Slug": "cherry-blossom-dark-tan-liquid-shoe-polish-wax-extracts-75-ml-2",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/cherry-blossom-dark-tan-liquid-shoe-polish-wax-extracts-75-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132832&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 4,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                }
+            ],
+            "BaseProductVariantId": 39172,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 4,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-02T22:00:00",
+            "UnixTimeMilliseconds": 1685721600000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-03T22:00:00",
+            "UnixTimeMilliseconds": 1685808000000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-02T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 39397,
+            "Name": "Yage Electronic Mosquito Swatter (White & Blue) 1 pcs",
+            "NameWithoutSubText": "Yage Electronic Mosquito Swatter (White & Blue)",
+            "SubText": "each",
+            "ShortDescription": "",
+            "NameBn": "ইয়েজ ইলেকট্রনিক মশার সয়েটার (সাদা এবং নীল) ১ টি",
+            "Price": {
+                "Lo": 6450000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 3890000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 389,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "Origin: China \r\nManufacturer:Yage by rozzby      Insect killing rechargeable electric racket. Can kill mosquitoes and flies. It has dense mesh. So mosquitoes cannot escape. It is safe to touch. Has an built-in LED. So that you can use it in the dark.  Supply voltage: 110-220V   Lithium battery operated",
+            "Slug": "yage-electronic-mosquito-swatter-white-blue-1-pcs",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/yage-electronic-mosquito-swatter-white-blue-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135218&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 8,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                }
+            ],
+            "BaseProductVariantId": 39397,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 8,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 90000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-06-01T22:00:00",
+            "UnixTimeMilliseconds": 1685635200000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-02T22:00:00",
+            "UnixTimeMilliseconds": 1685721600000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-06-01T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 39175,
+            "Name": "Mortein Mosquito Repellent Insta Vaporizer (Machine + Refill) 1 pcs",
+            "NameWithoutSubText": "Mortein Mosquito Repellent Insta Vaporizer (Machine + Refill)",
+            "SubText": "each",
+            "ShortDescription": "",
+            "NameBn": "মরটিন মসকুইটো রিপেলেন্ট ইন্সটা ভ্যাপোরাইজার (মেশিন + রিফিল) ১ টি",
+            "Price": {
+                "Lo": 2200000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 1590000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 159,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "",
+            "Slug": "mortein-mosquito-repellent-insta-vaporizer-machine-refill-1-pcs-2",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/mortein-mosquito-repellent-insta-vaporizer-machine-refill-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132835&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [],
+            "BaseProductVariantId": 39175,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 0,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-05-31T22:00:00",
+            "UnixTimeMilliseconds": 1685548800000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-06-01T22:00:00",
+            "UnixTimeMilliseconds": 1685635200000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-05-31T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 36613,
+            "Name": "Nucella Fortified Chocolate Spread Cocoa & Almond 230 gm",
+            "NameWithoutSubText": "Nucella Fortified Chocolate Spread Cocoa & Almond",
+            "SubText": "230 gm",
+            "ShortDescription": "",
+            "NameBn": "নিউসেলা ফর্টিফাইড চকোলেট স্প্রেড কোকোয়া এন্ড আলমন্ড ২৩০ গ্রাম",
+            "Price": {
+                "Lo": 3200000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 2050000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 205,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "",
+            "Slug": "nucella-fortified-chocolate-spread-cocoa-almond-230-gm",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/nucella-fortified-chocolate-spread-cocoa-almond-230-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120594&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [],
+            "BaseProductVariantId": 36613,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 0,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-05-30T22:00:00",
+            "UnixTimeMilliseconds": 1685462400000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-05-31T22:00:00",
+            "UnixTimeMilliseconds": 1685548800000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-05-30T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 39333,
+            "Name": "Whole Deshi Chicken Skin Off ± 25 gm 500 gm",
+            "NameWithoutSubText": "Whole Deshi Chicken Skin Off ± 25 gm",
+            "SubText": "500 gm",
+            "ShortDescription": "",
+            "NameBn": "আস্ত দেশি মুরগী চামড়া ছাড়া ± ২৫ গ্রাম ৫০০ গ্রাম ",
+            "Price": {
+                "Lo": 6650000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 3490000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 349,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "",
+            "Slug": "whole-deshi-chicken-skin-off-25-gm-500-gm",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/whole-deshi-chicken-skin-off-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D134107&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [],
+            "BaseProductVariantId": 39333,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 0,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-05-29T22:00:00",
+            "UnixTimeMilliseconds": 1685376000000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-05-30T22:00:00",
+            "UnixTimeMilliseconds": 1685462400000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    },
+    {
+        "Date": "2023-05-29T00:00:00",
+        "Status": "Previous",
+        "Product": {
+            "ProductVariantId": 36558,
+            "Name": "Saffola Active Plus Edible Oil 5 ltr",
+            "NameWithoutSubText": "Saffola Active Plus Edible Oil",
+            "SubText": "5 ltr",
+            "ShortDescription": "",
+            "NameBn": "সাফলা একটিভ ব্লেনডেড এডিবল সবজি তেল ৫ লিটার",
+            "Price": {
+                "Lo": 18000000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "DiscountedPrice": {
+                "Lo": 15500000,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 4
+            },
+            "CorporatePrice": {
+                "Lo": 1550,
+                "Mid": 0,
+                "Hi": 0,
+                "SignScale": 0
+            },
+            "LongDescription": "Saffola Active with Goodness of 5 contains Oryzanol, Omega 3, Vitamin A & Vitamin E, and ensures upto 25%* less oil absorption, for active life management of you and your family.\r\n",
+            "Slug": "saffola-active-plus-edible-oil-5-ltr-2",
+            "RecType": "",
+            "PictureUrls": [
+                "https://chaldn.com/_mpimage/saffola-active-plus-edible-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133098&q=best&v=1"
+            ],
+            "OfferPictureUrls": [],
+            "Attributes": {},
+            "AllCategoryIds": [],
+            "AllRecursiveCategoryIds": [],
+            "AllManufacturerIds": [],
+            "DoNotApplyDiscounts": false,
+            "BlockSale": false,
+            "ProductAvailabilityForSelectedWarehouse": [
+                {
+                    "EarliestAvailableTimeOfDay": null,
+                    "AvailabilityCutOffTimeOfDay": null,
+                    "Quantity": 8,
+                    "EarliestAvailableTime": {
+                        "DateTime": "2023-06-11T16:15:15.111",
+                        "UnixTimeMilliseconds": 1686478515111,
+                        "Offset": {
+                            "Ticks": 216000000000
+                        }
+                    },
+                    "AvailabilityExpiryTime": null
+                }
+            ],
+            "BaseProductVariantId": 36558,
+            "UnitQuantity": 1,
+            "UnitType": "",
+            "DrugRegulationType": "",
+            "BaseProductQuantity": 8,
+            "CatalogItemType": "Grocery",
+            "AlternateOf": "",
+            "AdditionalShippingFee": 0
+        },
+        "StoreId": 1,
+        "MinimumOrderTotal": {
+            "Lo": 990000,
+            "Mid": 0,
+            "Hi": 0,
+            "SignScale": 4
+        },
+        "StartTime": {
+            "DateTime": "2023-05-28T22:00:00",
+            "UnixTimeMilliseconds": 1685289600000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        },
+        "EndTime": {
+            "DateTime": "2023-05-29T22:00:00",
+            "UnixTimeMilliseconds": 1685376000000,
+            "Offset": {
+                "Ticks": 216000000000
+            }
+        }
+    }
+]

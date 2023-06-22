@@ -222,7 +222,7 @@ app.post('/jwt', (req, res) => {
 
 
 // get all categories 
-app.get('/admin/subcategory-list', (req, res) => {
+app.get('/admin/category-list', (req, res) => {
     res.send(categories);
 })
 
@@ -304,6 +304,7 @@ app.post('/admin/top-banner', (req, res) => {
 
 // bottom banner admin
 app.get('/admin/bottom-banner', (req, res) => {
+    console.log('djd')
     res.send(bottomBanner);
 })
 

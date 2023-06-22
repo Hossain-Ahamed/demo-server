@@ -219,36 +219,96 @@ app.post('/jwt', (req, res) => {
 
 // admin 
 
-app.get('/admin/category-list', (req, res) => {
+
+
+// get all categories 
+app.get('/admin/subcategory-list', (req, res) => {
     res.send(categories);
 })
+
+
+// upload new category 
+app.post('/admin/category-list/upload-category', (req, res) => {
+    res.send(categories);
+})
+
+// get category data for editting 
 app.get('/admin/category-list/:category_slug/edit', (req, res) => {
   
 
     res.send(categories.find(category =>category.category_slug === req.params.category_slug));
 })
 
+// update category data after editing 
+app.patch('/admin/category-list/:category_slug/edit', (req, res) => {
+  
 
+    res.send(categories.find(category =>category.category_slug === req.params.category_slug));
+})
+
+
+// update status of category data after editing 
+app.patch('/admin/category-list/:category_slug/edit-status', (req, res) => {
+  
+
+    res.send({});
+})
+
+
+// get all subcategories 
 app.get('/admin/subcategory-list', (req, res) => {
     res.send(subcategories);
 })
 
 
-// top banner admin
+// post new subcategory 
+app.post('admin/subcategory-list/upload-subcategory', (req, res) => {
+  
 
+    res.send({});
+})
+
+// get specific sub category for edit 
+app.get('/admin/subcategory-list/:subcategory_slug/edit', (req, res) => {
+  
+
+    res.send({});
+})
+
+// update specific sub category after edit 
+app.patch('/admin/subcategory-list/:subcategory_slug/edit', (req, res) => {
+  
+
+    res.send({});
+})
+
+// update status of subcategory data after editing 
+app.patch('/admin/subcategory-list/:subcategory_slug/edit-status', (req, res) => {
+  
+
+    res.send({});
+})
+
+
+
+// __________________________________top banner admin_______________________________
 app.get('/admin/top-banner', (req, res) => {
     res.send(topBanner);
 })
 
+// new top banner upload 
 app.post('/admin/top-banner', (req, res) => {
     res.send(subcategories);
 })
-// bottom banner admin
 
+
+// bottom banner admin
 app.get('/admin/bottom-banner', (req, res) => {
     res.send(bottomBanner);
 })
 
+
+// all banner 
 app.post('/admin/bottom-banner', (req, res) => {
     res.send(subcategories);
 })

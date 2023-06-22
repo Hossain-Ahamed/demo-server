@@ -2,6 +2,7 @@
   {
     "subcategory_slug": "home-cleaning",
     "subcategoryname": "Washing & cleaning",
+    "category_name": "Cleaning Supplies",
     "isActive": true,
     "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
     "products": [
@@ -19,6 +20,7 @@
   {
     "subcategory_slug": "detergents",
     "subcategoryname": "Washing Soap and detergents",
+    "category_name": "Cleaning Supplies",
     "isActive": false,
     "products": [
       
@@ -39,6 +41,7 @@
   {
     "subcategory_slug": "gol-alu",
     "subcategoryname": "Gol Alu",
+    "category_name": "Alu",
     "isActive": true,
     "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
     "products":[
@@ -57,6 +60,7 @@
   {
     "subcategory_slug": "misti-alu",
     "subcategoryname": "Misti Alu",
+    "category_name": "Alu",
     "isActive": true,
     "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
     "products":[

@@ -1,7 +1,9 @@
 [
   {
-    "subcategory_slug": "cleaning",
+    "subcategory_slug": "home-cleaning",
     "subcategoryname": "Washing & cleaning",
+    "isActive": true,
+    "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
     "products": [
       {
         "product_id" : "123"
@@ -11,18 +13,34 @@
       },
       {
         "product_id" : "345"
-      },
+      }
+    ]
+  },
+  {
+    "subcategory_slug": "detergents",
+    "subcategoryname": "Washing Soap and detergents",
+    "isActive": false,
+    "products": [
+      
       {
         "product_id" : "456"
       },
       {
         "product_id" : "567"
+      },
+      {
+        "product_id" : "789"
+      },
+      {
+        "product_id" : "900"
       }
     ]
   },
   {
-    "subcategory_slug": "fresh",
-    "subcategoryname": "freshing agents",
+    "subcategory_slug": "gol-alu",
+    "subcategoryname": "Gol Alu",
+    "isActive": true,
+    "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
     "products":[
       {
         "product_id" : "901"
@@ -32,6 +50,24 @@
       },
       {
         "product_id" : "903"
+      }
+      
+    ]
+  },
+  {
+    "subcategory_slug": "misti-alu",
+    "subcategoryname": "Misti Alu",
+    "isActive": true,
+    "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
+    "products":[
+      {
+        "product_id" : "904"
+      },
+      {
+        "product_id" : "905"
+      },
+      {
+        "product_id" : "906"
       }
       
     ]

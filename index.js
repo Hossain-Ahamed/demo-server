@@ -19,7 +19,9 @@ const allproducts = require('./data/AllProducts.json');
 const cartsdata = require('./data/cartsdata.json');
 const productDetailInformation = require('./data/ProductDetail.json');
 const Allorders = require('./data/AllOrders.json');
-const PreviousOrderDetailInfo = require('./data/PreviousOrderDetailInfo.json')
+const PreviousOrderDetailInfo = require('./data/PreviousOrderDetailInfo.json');
+const bottomBanner = require('./data/bottomBanner.json');
+const topBanner  = require('./data/topBanner.json');
 
 
 
@@ -31,7 +33,7 @@ app.get('/', (req, res) => {
 app.get('/home', (req, res) => {
     console.log('req for ', req.path);
 
-    res.send({ categories, AllproductsData, footerData });
+    res.send({ categories, topBanner,bottomBanner, footerData });
 
 
 })
@@ -105,7 +107,7 @@ app.post('/carts', (req, res) => {
 
 })
 
-const cartWithImage = parameterData =>{
+const cartWithImage = parameterData => {
     let cart = [];
     let cartItem = null;
 
@@ -130,17 +132,17 @@ const cartWithImage = parameterData =>{
 
 
 app.delete('/carts', (req, res) => {
-    
+
     console.log(req.body.product_id);
 
     for (let i = 0; i < cartsdata.length; i++) {
         if (cartsdata[i].product_id === req.body.product_id) {
-          cartsdata.splice(i, 1);
-          break; // Assuming there is only one object with "product_id": "901"
+            cartsdata.splice(i, 1);
+            break; // Assuming there is only one object with "product_id": "901"
         }
-      }
+    }
 
-   
+
 
     let cart = cartWithImage(cartsdata);
     res.send(cart)
@@ -160,8 +162,8 @@ app.get('/confirmedCartItems', (req, res) => {
     let cart = cartWithImage(cartsdata);
     const shippingCharge = 150;
     res.send({
-        "products" :cart,
-        "shippingCharge" :shippingCharge
+        "products": cart,
+        "shippingCharge": shippingCharge
     });
 
 })
@@ -188,11 +190,68 @@ app.get('/completedOrder/:orderId', (req, res) => {
 
 })
 
+app.post('/user', (req, res) => {
+
+    console.log(PreviousOrderDetailInfo)
+    res.send(PreviousOrderDetailInfo)
+
+})
+
+
+app.post('/jwt', (req, res) => {
+    const userData = req.body;
+    console.log(userData.email);
+
+    const user = {
+        id: 32984,
+        name: 'Hossain Ahamed',
+        phone: '01868726172',
+        email:'hossainahamed6872@gmail.com',
+        address: '29/1,Road 21, New Chasara,jamtola,Narayanganj',
+        gender: 'Male',
+        imgURL: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80'
+    }
+    res.send({user:user , token: 'ksdfjjkldsfjsalk'})
+
+})
 
 
 
+// admin 
+
+app.get('/admin/category-list', (req, res) => {
+    res.send(categories);
+})
+app.get('/admin/category-list/:category_slug/edit', (req, res) => {
+  
+
+    res.send(categories.find(category =>category.category_slug === req.params.category_slug));
+})
 
 
+app.get('/admin/subcategory-list', (req, res) => {
+    res.send(subcategories);
+})
+
+
+// top banner admin
+
+app.get('/admin/top-banner', (req, res) => {
+    res.send(topBanner);
+})
+
+app.post('/admin/top-banner', (req, res) => {
+    res.send(subcategories);
+})
+// bottom banner admin
+
+app.get('/admin/bottom-banner', (req, res) => {
+    res.send(bottomBanner);
+})
+
+app.post('/admin/bottom-banner', (req, res) => {
+    res.send(subcategories);
+})
 
 app.listen(port, () => {
     console.log('server is running on port ', port);

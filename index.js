@@ -17,7 +17,7 @@ const orderstatus = require('./data/orderStatus.json');
 const categories = require('./data/category.json');
 const allproducts = require('./data/AllProducts.json');
 const cartsdata = require('./data/cartsdata.json');
-const productDetailInformation = require('./data/ProductDetail.json');
+
 const Allorders = require('./data/AllOrders.json');
 const PreviousOrderDetailInfo = require('./data/PreviousOrderDetailInfo.json');
 const bottomBanner = require('./data/bottomBanner.json');
@@ -215,6 +215,14 @@ app.post('/jwt', (req, res) => {
 
 })
 
+app.post('/admin/jwt', (req, res) => {
+    const admindata = req.body;
+    console.log(admindata);
+
+    res.send(admindata)
+
+})
+
 
 
 // admin 
@@ -289,6 +297,12 @@ app.patch('/admin/subcategory-list/:subcategory_slug/edit-status', (req, res) =>
     res.send({});
 })
 
+// prdouct ______________
+
+// get all subcategories 
+app.get('/admin/products-list', (req, res) => {
+    res.send(allproducts);
+})
 
 
 // __________________________________top banner admin_______________________________

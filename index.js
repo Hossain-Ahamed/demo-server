@@ -171,7 +171,7 @@ app.get('/confirmedCartItems', (req, res) => {
 
 app.get('/productDetail/:product_slug_name', (req, res) => {
 
-    res.send(allproducts.find(item => item.slug_name === req.params.product_slug_name))
+    res.send(allproducts.find(item => item.product_slug === req.params.product_slug_name))
 
 })
 
@@ -318,7 +318,6 @@ app.post('/admin/top-banner', (req, res) => {
 
 // bottom banner admin
 app.get('/admin/bottom-banner', (req, res) => {
-    console.log('djd')
     res.send(bottomBanner);
 })
 

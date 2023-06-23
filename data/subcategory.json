@@ -7,13 +7,13 @@
     "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
     "products": [
       {
-        "product_id" : "123"
+        "_id" : "123"
       },
       {
-        "product_id" : "234"
+        "_id" : "234"
       },
       {
-        "product_id" : "345"
+        "_id" : "345"
       }
     ]
   },
@@ -25,16 +25,16 @@
     "products": [
       
       {
-        "product_id" : "456"
+        "_id" : "456"
       },
       {
-        "product_id" : "567"
+        "_id" : "567"
       },
       {
-        "product_id" : "789"
+        "_id" : "789"
       },
       {
-        "product_id" : "900"
+        "_id" : "900"
       }
     ]
   },
@@ -46,13 +46,13 @@
     "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
     "products":[
       {
-        "product_id" : "901"
+        "_id" : "901"
       },
       {
-        "product_id" : "902"
+        "_id" : "902"
       },
       {
-        "product_id" : "903"
+        "_id" : "903"
       }
       
     ]
@@ -65,13 +65,13 @@
     "img": "https://i.ibb.co/WxRJSwV/Getty-1051355600-Resize-DH-RD-Most-Popular-Grocery-Item-removebg-preview.png",
     "products":[
       {
-        "product_id" : "904"
+        "_id" : "904"
       },
       {
-        "product_id" : "905"
+        "_id" : "905"
       },
       {
-        "product_id" : "906"
+        "_id" : "906"
       }
       
     ]

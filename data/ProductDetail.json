@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "product_id" : "123",
+    "_id" : "123",
     "img": "https://i.ibb.co/QrxVvr1/vim-dishwashing-liquid-1-ltr.png",
     "name": "Vim Liquid",
     "slug_name" : "vim-liquid",
@@ -20,7 +20,7 @@
     "id": 2,
     "img": "https://i.ibb.co/QrxVvr1/vim-dishwashing-liquid-1-ltr.png",
     "name": "ALU",
-    "product_id" : "234",
+    "_id" : "234",
     "slug_name" : "alu",
     "size": "500 gm",
     "description" : "Vim liquid, with double lemon power it cleans 2x number of dishes Vs Bars, gives you complete cleaning without leaving any residue, unlike Dishwash Bars. It is also great value for money with one spoon of Vim liquid being enough to clean a full sink of dirty utensils. Its superior fragrance leaves your utensils smelling fresh, while its pH neutral formula is gentle on your hands.It also keeps your expensive utensils like non-stick cookware looking new for longer as it cleans without scratching the surface and is recommended for non-stick cookware.For cooking vessels, add a drop of Vim liquid directly on the scrubber and wash to get rid of tough stains. For other utensils, tiffin and dishes, take a spoonful of Vim, mix it in a bowl of water use the mixture to wash.So go ahead and enjoy the Vim liquid experience. Buy Now!",

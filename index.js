@@ -58,7 +58,7 @@ app.get('/sub-category/:subcategory_slug', (req, res) => {
     if (subcategory) {
         subcategory.products.map(subCatProductItem => {
 
-            IndividualProduct = allproducts.find(productItem => productItem.product_id === subCatProductItem.product_id);
+            IndividualProduct = allproducts.find(productItem => productItem._id === subCatProductItem._id);
 
 
             allProductsData.push(IndividualProduct)
@@ -122,14 +122,14 @@ const cartWithImage = parameterData => {
     parameterData.map(i => {
 
 
-        cartItem = allproducts.find(productItem => productItem.product_id === i.product_id);
+        cartItem = allproducts.find(productItem => productItem._id === i._id);
 
         cart.push({
             "img": cartItem.img,
             "name": cartItem.name,
-            "product_id": cartItem.product_id,
+            "_id": cartItem._id,
             "size": cartItem.size,
-            "buyingprice": cartItem.finalPrice,
+            "sellingPrice": cartItem.sellingPrice,
             "quantity": i.quantity
         }
         )
@@ -140,12 +140,12 @@ const cartWithImage = parameterData => {
 
 app.delete('/carts', (req, res) => {
 
-    console.log(req.body.product_id);
+    console.log(req.body._id);
 
     for (let i = 0; i < cartsdata.length; i++) {
-        if (cartsdata[i].product_id === req.body.product_id) {
+        if (cartsdata[i]._id === req.body._id) {
             cartsdata.splice(i, 1);
-            break; // Assuming there is only one object with "product_id": "901"
+            break; // Assuming there is only one object with "_id": "901"
         }
     }
 
@@ -177,8 +177,9 @@ app.get('/confirmedCartItems', (req, res) => {
 
 
 app.get('/productDetail/:product_slug_name', (req, res) => {
+    console.log(req.params.product_slug_name)
 
-    res.send(allproducts.find(item => item.product_slug === req.params.product_slug_name))
+    res.send(allproducts.find(item => item.slug_name === req.params.product_slug_name))
 
 })
 

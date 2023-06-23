@@ -37,6 +37,13 @@ app.get('/home', (req, res) => {
 
 
 })
+app.get('/footer', (req, res) => {
+    console.log('req for ', req.path);
+
+    res.send(footerData);
+
+
+})
 
 app.get('/sub-category/:subcategory_slug', (req, res) => {
     console.log('req for ', req.path);

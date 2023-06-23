@@ -335,6 +335,15 @@ app.post('/admin/bottom-banner', (req, res) => {
     res.send(subcategories);
 })
 
+// inventory _____________
+app.get('/admin/inventory/:product_slug/add', (req, res) => {
+    console.log(req.params.product_slug)
+
+    res.send(allproducts.find(item => item.slug_name === req.params.product_slug))
+
+})
+
+
 app.listen(port, () => {
     console.log('server is running on port ', port);
 })

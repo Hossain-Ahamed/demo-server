@@ -22,11 +22,20 @@ const Allorders = require('./data/AllOrders.json');
 const PreviousOrderDetailInfo = require('./data/PreviousOrderDetailInfo.json');
 const bottomBanner = require('./data/bottomBanner.json');
 const topBanner = require('./data/topBanner.json');
+const adminList = require('./data/admin.json');
 
 
 
 app.get('/', (req, res) => {
     res.send('gogoshop server is running');
+})
+
+
+app.get('/search', (req, res) => {
+    const searchQuery = req.query.q;
+    console.log(searchQuery);
+    const products = allproducts.filter(product=> product.name.toLowerCase().includes(searchQuery.toLowerCase()))
+    res.send(products)
 })
 
 
@@ -253,6 +262,30 @@ app.post('/admin/signout', (req, res) => {
 })
 
 
+//  get adminlist 
+app.get('/admin/admin-list', (req, res) => {
+
+    res.send(adminList)
+
+})
+
+
+// req to change pass 
+app.patch('/admin-list/:admin_Id/changePass', (req, res) => {
+    console.log(req.params.admin_Id)
+})
+
+// req to delete admin 
+app.delete('/admin-list/:admin_Id/delete', (req, res) => {
+    console.log(req.params.admin_Id);
+})
+
+app.post('/admin-list/add-admin', (req, res) => {
+    console.log(req.body)
+})
+
+
+
 // get all categories 
 app.get('/admin/category-list', (req, res) => {
     res.send(categories);
@@ -311,7 +344,7 @@ app.post('admin/subcategory-list/upload-subcategory', (req, res) => {
 app.get('/admin/subcategory-list/:subcategory_slug/edit', (req, res) => {
 
 
-    res.send({categories});
+    res.send({ categories });
 })
 
 // update specific sub category after edit 

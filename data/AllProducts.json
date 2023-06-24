@@ -13,7 +13,7 @@
           "MRP": "378",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 0,
           "category": "Cleaning Supplies",
           "subcategory": "Washing & cleaning",
           "images": [
@@ -36,7 +36,7 @@
           "MRP": "168.59",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Cleaning Supplies",
           "subcategory": "Washing & cleaning",
           "images": [
@@ -59,7 +59,7 @@
           "MRP": "168.59",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Cleaning Supplies",
           "subcategory": "Washing & cleaning",
           "images": [
@@ -82,7 +82,7 @@
           "MRP": "168.59",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Cleaning Supplies",
           "subcategory": "Washing Soap and detergents",
           "images": [
@@ -105,7 +105,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Cleaning Supplies",
           "subcategory": "Washing Soap and detergents",
           "images": [
@@ -128,7 +128,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Cleaning Supplies",
           "subcategory": "Washing Soap and detergents",
           "images": [
@@ -151,7 +151,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Cleaning Supplies",
           "subcategory": "Washing Soap and detergents",
           "images": [
@@ -174,7 +174,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Alu",
           "subcategory": "Gol Alu",
           "images": [
@@ -197,7 +197,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Alu",
           "subcategory": "Gol Alu",
           "images": [
@@ -220,7 +220,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Alu",
           "subcategory": "Gol Alu",
           "images": [
@@ -243,7 +243,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Alu",
           "subcategory": "Misti Alu",
           "images": [
@@ -266,7 +266,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Alu",
           "subcategory": "Misti Alu",
           "images": [
@@ -289,7 +289,7 @@
           "MRP": "249",
           "buyingPrice" : "90.5",
           "timestamps" :"25 oct 2022",
-          "stock" : "15",
+          "stock" : 15,
           "category": "Alu",
           "subcategory": "Misti Alu",
           "images": [

@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 app.get('/search', (req, res) => {
     const searchQuery = req.query.q;
     console.log(searchQuery);
-    const products = allproducts.filter(product=> product.name.toLowerCase().includes(searchQuery.toLowerCase()))
+    const products = allproducts.filter(product => product.name.toLowerCase().includes(searchQuery.toLowerCase()))
     res.send(products)
 })
 
@@ -53,6 +53,16 @@ app.get('/footer', (req, res) => {
 
 
 })
+app.post('/footer', (req, res) => {
+    
+    console.log(req.body);
+
+    res.send(true);
+
+
+})
+
+// app.get('/category/:category_slug')
 
 app.get('/sub-category/:subcategory_slug', (req, res) => {
     console.log('req for ', req.path);
@@ -132,7 +142,9 @@ const cartWithImage = parameterData => {
 
 
         cartItem = allproducts.find(productItem => productItem._id === i._id);
+if(!cartItem){
 
+}
         cart.push({
             "img": cartItem.img,
             "name": cartItem.name,
@@ -242,7 +254,8 @@ app.post('/admin/jwt', (req, res) => {
     console.log(admindata)
 
     const response = {
-        jwt: 'djfjkjsda'
+        email: 'djfjkjsda',
+        jwt: 'dasjjjdsakf'
 
     }
 
@@ -270,18 +283,23 @@ app.get('/admin/admin-list', (req, res) => {
 })
 
 
+
+
 // req to change pass 
-app.patch('/admin-list/:admin_Id/changePass', (req, res) => {
+app.patch('/admin/admin-list/:admin_Id/changePass', (req, res) => {
     console.log(req.params.admin_Id)
+    res.send(adminList)
 })
 
 // req to delete admin 
-app.delete('/admin-list/:admin_Id/delete', (req, res) => {
+app.delete('/admin/admin-list/:admin_Id/delete', (req, res) => {
     console.log(req.params.admin_Id);
+    res.send(adminList)
 })
 
-app.post('/admin-list/add-admin', (req, res) => {
+app.post('/admin/admin-list/add-admin', (req, res) => {
     console.log(req.body)
+    res.send(adminList)
 })
 
 
@@ -294,13 +312,14 @@ app.get('/admin/category-list', (req, res) => {
 
 // upload new category 
 app.post('/admin/category-list/upload-category', (req, res) => {
-
+    console.log("cate", req.body)
 
     /*
     
     update the category 
     then send to me
     */
+    console.log('dasa')
     res.send(categories);
 })
 
@@ -313,17 +332,25 @@ app.get('/admin/category-list/:category_slug/edit', (req, res) => {
 
 // update category data after editing 
 app.patch('/admin/category-list/:category_slug/edit', (req, res) => {
+    console.log(req.body)
+
+    res.send(true);
+})
 
 
-    res.send(categories.find(category => category.category_slug === req.params.category_slug));
+// send category data after delete 
+app.delete('/admin/category-list/:category_slug/delete', (req, res) => {
+    console.log(req.params.category_slug)
+
+    res.send(categories);
 })
 
 
 // update status of category data after editing 
 app.patch('/admin/category-list/:category_slug/edit-status', (req, res) => {
+     console.log(req.body)
 
-
-    res.send({});
+    res.send(true);
 })
 
 
@@ -334,10 +361,10 @@ app.get('/admin/subcategory-list', (req, res) => {
 
 
 // post new subcategory 
-app.post('admin/subcategory-list/upload-subcategory', (req, res) => {
+app.post('/admin/subcategory-list/upload-subcategory', (req, res) => {
+ console.log(req.body)
 
-
-    res.send({});
+    res.send(true);
 })
 
 // get specific sub category for edit 
@@ -356,9 +383,17 @@ app.patch('/admin/subcategory-list/:subcategory_slug/edit', (req, res) => {
 
 // update status of subcategory data after editing 
 app.patch('/admin/subcategory-list/:subcategory_slug/edit-status', (req, res) => {
-
+     console.log(req.body);
 
     res.send({});
+})
+
+
+// delete status of subcategory data after editing 
+app.delete('/admin/subcategory-list/:subcategory_slug/delete', (req, res) => {
+     console.log(req.params.subcategory_slug);
+
+    res.send(subcategories);
 })
 
 // prdouct ______________
@@ -371,7 +406,13 @@ app.get('/admin/products-list', (req, res) => {
 
 
 // get all subcategories  & that product 
-app.get('/admin/products-list/:product_slug_name/edit', (req, res) => {
+app.patch('/admin/products-list/:product_slug_name/edit', (req, res) => {
+    res.send(allproducts);
+})
+
+
+// get all subcategories  & that product 
+app.patch('/admin/products-list/:product_slug_name/edit-status', (req, res) => {
     res.send(allproducts);
 })
 
@@ -403,6 +444,14 @@ app.get('/admin/inventory/:product_slug/add', (req, res) => {
     console.log(req.params.product_slug)
 
     res.send(allproducts.find(item => item.slug_name === req.params.product_slug))
+
+})
+
+
+app.patch('/admin/inventory/:product_slug/add', (req, res) => {
+    console.log(req.body)
+
+    res.send(true)
 
 })
 

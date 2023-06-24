@@ -21,7 +21,7 @@ const cartsdata = require('./data/cartsdata.json');
 const Allorders = require('./data/AllOrders.json');
 const PreviousOrderDetailInfo = require('./data/PreviousOrderDetailInfo.json');
 const bottomBanner = require('./data/bottomBanner.json');
-const topBanner  = require('./data/topBanner.json');
+const topBanner = require('./data/topBanner.json');
 
 
 
@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
 app.get('/home', (req, res) => {
     console.log('req for ', req.path);
 
-    res.send({ categories, topBanner,bottomBanner, footerData });
+    res.send({ categories, topBanner, bottomBanner, footerData });
 
 
 })
@@ -214,27 +214,43 @@ app.post('/jwt', (req, res) => {
         id: 32984,
         name: 'Hossain Ahamed',
         phone: '01868726172',
-        email:'hossainahamed6872@gmail.com',
+        email: 'hossainahamed6872@gmail.com',
         address: '29/1,Road 21, New Chasara,jamtola,Narayanganj',
         gender: 'Male',
         imgURL: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80'
     }
-    res.send({user:user , token: 'ksdfjjkldsfjsalk'})
+    res.send({ user: user, token: 'ksdfjjkldsfjsalk' })
 
 })
 
-app.post('/admin/jwt', (req, res) => {
-    const admindata = req.body;
-    console.log(admindata);
-
-    res.send(admindata)
-
-})
 
 
 
 // admin 
 
+app.post('/admin/jwt', (req, res) => {
+    const admindata = req.body.logininfo;
+    console.log(admindata)
+
+    const response = {
+        jwt: 'djfjkjsda'
+
+    }
+
+
+
+    res.send(response)
+
+})
+
+app.post('/admin/signout', (req, res) => {
+
+
+    console.log(req.body)
+
+    res.send(true)
+
+})
 
 
 // get all categories 
@@ -245,27 +261,34 @@ app.get('/admin/category-list', (req, res) => {
 
 // upload new category 
 app.post('/admin/category-list/upload-category', (req, res) => {
+
+
+    /*
+    
+    update the category 
+    then send to me
+    */
     res.send(categories);
 })
 
 // get category data for editting 
 app.get('/admin/category-list/:category_slug/edit', (req, res) => {
-  
 
-    res.send(categories.find(category =>category.category_slug === req.params.category_slug));
+
+    res.send(categories.find(category => category.category_slug === req.params.category_slug));
 })
 
 // update category data after editing 
 app.patch('/admin/category-list/:category_slug/edit', (req, res) => {
-  
 
-    res.send(categories.find(category =>category.category_slug === req.params.category_slug));
+
+    res.send(categories.find(category => category.category_slug === req.params.category_slug));
 })
 
 
 // update status of category data after editing 
 app.patch('/admin/category-list/:category_slug/edit-status', (req, res) => {
-  
+
 
     res.send({});
 })
@@ -279,36 +302,43 @@ app.get('/admin/subcategory-list', (req, res) => {
 
 // post new subcategory 
 app.post('admin/subcategory-list/upload-subcategory', (req, res) => {
-  
+
 
     res.send({});
 })
 
 // get specific sub category for edit 
 app.get('/admin/subcategory-list/:subcategory_slug/edit', (req, res) => {
-  
 
-    res.send({});
+
+    res.send({categories});
 })
 
 // update specific sub category after edit 
 app.patch('/admin/subcategory-list/:subcategory_slug/edit', (req, res) => {
-  
+
 
     res.send({});
 })
 
 // update status of subcategory data after editing 
 app.patch('/admin/subcategory-list/:subcategory_slug/edit-status', (req, res) => {
-  
+
 
     res.send({});
 })
 
 // prdouct ______________
 
-// get all subcategories 
+// get all [product for product list]  
 app.get('/admin/products-list', (req, res) => {
+    res.send(allproducts);
+})
+
+
+
+// get all subcategories  & that product 
+app.get('/admin/products-list/:product_slug_name/edit', (req, res) => {
     res.send(allproducts);
 })
 

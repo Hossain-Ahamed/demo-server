@@ -54,7 +54,7 @@ app.get('/footer', (req, res) => {
 
 })
 app.post('/footer', (req, res) => {
-    
+
     console.log(req.body);
 
     res.send(true);
@@ -142,9 +142,9 @@ const cartWithImage = parameterData => {
 
 
         cartItem = allproducts.find(productItem => productItem._id === i._id);
-if(!cartItem){
+        if (!cartItem) {
 
-}
+        }
         cart.push({
             "img": cartItem.img,
             "name": cartItem.name,
@@ -197,6 +197,24 @@ app.get('/confirmedCartItems', (req, res) => {
 })
 
 
+app.get('/category/:category_slug', (req, res) => {
+    console.log(req.params.category_slug)
+
+    if (req.params.category_slug === '1') {
+        res.status(200).send({
+            success: true,
+            message: "new admin created",
+
+        });
+    }
+
+    res.status(404).send({
+        success: false,
+        message: "error",
+
+    });
+
+})
 app.get('/productDetail/:product_slug_name', (req, res) => {
     console.log(req.params.product_slug_name)
 
@@ -348,7 +366,7 @@ app.delete('/admin/category-list/:category_slug/delete', (req, res) => {
 
 // update status of category data after editing 
 app.patch('/admin/category-list/:category_slug/edit-status', (req, res) => {
-     console.log(req.body)
+    console.log(req.body)
 
     res.send(true);
 })
@@ -362,7 +380,7 @@ app.get('/admin/subcategory-list', (req, res) => {
 
 // post new subcategory 
 app.post('/admin/subcategory-list/upload-subcategory', (req, res) => {
- console.log(req.body)
+    console.log(req.body)
 
     res.send(true);
 })
@@ -383,7 +401,7 @@ app.patch('/admin/subcategory-list/:subcategory_slug/edit', (req, res) => {
 
 // update status of subcategory data after editing 
 app.patch('/admin/subcategory-list/:subcategory_slug/edit-status', (req, res) => {
-     console.log(req.body);
+    console.log(req.body);
 
     res.send({});
 })
@@ -391,7 +409,7 @@ app.patch('/admin/subcategory-list/:subcategory_slug/edit-status', (req, res) =>
 
 // delete status of subcategory data after editing 
 app.delete('/admin/subcategory-list/:subcategory_slug/delete', (req, res) => {
-     console.log(req.params.subcategory_slug);
+    console.log(req.params.subcategory_slug);
 
     res.send(subcategories);
 })
@@ -446,6 +464,17 @@ app.get('/admin/inventory/:product_slug/add', (req, res) => {
     res.send(allproducts.find(item => item.slug_name === req.params.product_slug))
 
 })
+
+app.get('/date', (req, res) => {
+
+
+    const today = new Date()
+    const options = { year: 'numeric', month: 'short', day: 'numeric' };
+    const formattedDate = today.toLocaleDateString('en-US', options);
+    console.log(formattedDate); // Output: "Aug 29, 2023"
+
+})
+
 
 
 app.patch('/admin/inventory/:product_slug/add', (req, res) => {
